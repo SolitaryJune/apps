@@ -3,4 +3,4 @@
 【内容】
 4.0来临，不再强制登录。新增隐藏功能，修复bug。APPs隐藏功能现仅售3元，半价出售。
 【内容】
-【链接】https://www.pgyer.com/apiv2/app/install?appKey=ae609cde0a56ac2a25c09dad336f3d6f&_api_key=eba9c52993dbcd00b6b3b81814e202e3【链接】
+【链接】https://www.pgyer.com/apiv2/app/install?appKey=1d8400b3947ea23825b3e979eae28209&_api_key=eba9c52993dbcd00b6b3b81814e202e3【链接】
