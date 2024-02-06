@@ -1,105 +1,151 @@
-//目前垃圾线路有 老刘备
 {
-    "urls": [
-        {
-            "url": "",
-            "name": "🐊🐊接口更新于11.23🐊🐊"
-        },
-        {
-            "url": "",
-            "name": "🍀此接口免费禁止贩卖🍀"
-        },
-        {
-            "url": "http://饭太硬.top/tv",
-            "name": "🚀饭太硬推荐"
-        },
-        {
-            "url": "http://xhww.fun:63/小米/DEMO.json",
-            "name": "🚀小米推荐"
-        },
-        {
-            "url": "http://fan.xxooo.cf/tv",
-            "name": "🚀饭太硬备用"
-        },
-        {
-            "url": "https://git.gushao.club/https://https://raw.githubusercontent.com/guot55/YGBH/main/vip2.json",
-            "name": "🚀宝盒线路"
-        },
-        {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com//yydfys/yydf/main/XYQTVBox/xyq.json",
-            "name": "🚀香雅情镜像线路"
-        },
-        {
-            "url": "https://xn--3d2a1b.eu.org/",
-            "name": "🚀蜂蜜线路推荐"
-        },
-        {
-            "url": "https://git.gushao.club/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json",
-            "name": "🚀酷安潇洒哥线路"
-        },
-        {
-            "url": "https://git.gushao.club/https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
-            "name": "🚀FongMI线路"
-        },
-        {
-            "url": "http://pandown.pro/tvbox/tvbox.json",
-            "name": "🚀巧计线路"
-        },
-        {
-            "url": "https://git.gushao.club/https://https://raw.githubusercontent.com/lxhfans/TV/master/tv.txt",
-            "name": "🚀乐享汇线路"
-        },
-        {
-            "url": "http://t.84jia.com:80/tvbox/tvbox.json",
-            "name": "🚀小鱼线路"
-        },
-        {
-            "url": "https://weixine.net/ysc.json",
-            "name": "🚀运输车路"
-        },
-        {
-            "url": "http://rihou.cc:99/荷城茶秀",
-            "name": "🚀荷城茶秀线路"
-        },
-        {
-            "url": "http://itvbox.cc/tvbox/云星日记/1.m3u8",
-            "name": "🚀云星日记线路"
-        },
-        {
-            "url": "https://100km.top/0",
-            "name": "🚀骚 0线路"
-        },
-        {
-            "url": "https://git.gushao.club/https://raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json",
-            "name": "🚀霜辉月明 py"
-        },
-        {
-            "url": "https://tvbox.cainisi.cf",
-            "name": "🚀菜妮丝 XBPQ"
-        },
-        {
-            "url": "https://git.gushao.club/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-            "name": "🚀高天流云js"
-        },
-        {
-            "url": "https://git.gushao.club/https://raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
-            "name": "🚀高天流云 XYQ"
-        },
-        {
-            "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
-            "name": "🚀南风线路"
-        },
-        {
-            "url": "https://神器每日推送.tk/pz.json",
-            "name": "🚀神器线路"
-        },
-        {
-            "url": "http://www.lyyytv.cn/yt/yt.json",
-            "name": "🚀影探线路"
-        },
-        {
-            "url": "http://dxawi.github.io/0/0.json",
-            "name": "🚀dxawi线路"
-        }
-    ]
+    "spider": "https://d.kstore.space/download/6474/tvbox/jar/YSZYZ.jar",
+    "lives": [],
+    "sites": [{
+        "key": "douban",
+        "name": "关注公众号:影视资源站,防失联",
+        "type": 3,
+        "api": "csp_DouBan",
+        "quickSearch": 0,
+        "filterable": 0,
+        "changeable": 0
+    }, {
+        "key": "nangua",
+        "name": "APP|南瓜",
+        "type": 3,
+        "api": "csp_AppYSDQ",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0,
+        "ext": "公众号:影视资源站"
+    }, {
+        "key": "aikun",
+        "name": "影视|皮皮",
+        "type": 3,
+        "api": "csp_WebAiKun",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0,
+        "ext":"http://aikun.tv"
+    }, {
+        "key": "yqkan",
+        "name": "影视|一起",
+        "type": 3,
+        "api": "csp_YQKan",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0,
+        "ext": "公众号:影视资源站"
+    },  {
+        "key": "nm",
+        "name": "弹幕|农民",
+        "type": 3,
+        "api": "csp_WebNM",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0,
+        "ext": "https://v.nmvod.cn"
+    },  {
+        "key": "997",
+        "name": "影视|997",
+        "type": 3,
+        "api": "csp_Web608",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0,
+        "ext": "https://www.6080yy4.com"
+    }, {
+        "key": "hh",
+        "name": "影视|胡胡",
+        "type": 3,
+        "api": "csp_WebHH",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0
+    }, {
+        "key": "gg",
+        "name": "外剧|高光",
+        "type": 3,
+        "api": "csp_WebGGYS",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0,
+        "ext": "https://ggys.me"
+    }, {
+        "key": "AList",
+        "name": "网盘|雅雅",
+        "type": 3,
+        "api": "csp_AListBox",
+        "searchable": 1,
+        "changeable": 0,
+        "ext": "https://d.kstore.space/download/6474/tvbox/json/xy.json#公众号:影视资源站",
+        "style": {"type": "list"}
+    }, {
+        "key": "xifan",
+        "name": "动漫|稀饭",
+        "type": 3,
+        "api": "csp_Xifan",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0,
+        "ext": "公众号:影视资源站"
+    }, {
+        "key": "zz",
+        "name": "短剧|种子",
+        "type": 3,
+        "api": "csp_App",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0,
+        "ext": "https://zzdj.cc/api.php/provide/vod"
+    }, {
+        "key": "bili",
+        "name": "娱乐|B站",
+        "type": 3,
+        "api": "csp_Bili",
+        "searchable": 1,
+        "filterable": 0,
+        "changeable": 0,
+        "style": {"type": "rect","ratio": 1.433},
+        "ext": "https://d.kstore.space/download/6474/tvbox/json/bili.json"
+    }, {
+        "key": "yinyue",
+        "name": "音乐|酷狗",
+        "type": 3,
+        "api": "csp_Music",
+        "searchable": 1,
+        "filterable": 0,
+        "changeable": 0,
+        "style": {"type": "rect","ratio": 1.433},
+        "ext": "https://d.kstore.space/download/6474/tvbox/json/music.json"
+    }, {
+        "key": "ting",
+        "name": "听书|听书",
+        "type": 3,
+        "api": "csp_BookTing",
+        "searchable": 1,
+        "changeable": 0,
+        "ext": "https://m.ting275.com#公众号#影视资源站"
+    }, {
+        "key": "cofig",
+        "name": "全局|配置",
+        "type": 3,
+        "style": {"type": "rect","ratio": 1.433},
+        "api": "csp_Config"
+    }],
+    "parses": [],
+    "flags": [],
+    "rules": [{
+        "name": "LZ",
+        "hosts": ["vip.lz", "hd.lz"],
+        "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]
+    }, {
+        "name": "FF",
+        "hosts": ["vip.ffzy", "hd.ffzy"],
+        "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]
+    }, {
+        "name": "YQK",
+        "hosts": ["yqk88"],
+        "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"]
+    }]
 }
