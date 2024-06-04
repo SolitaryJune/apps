@@ -39,7 +39,7 @@
 
     // 每10分钟刷新网页
     setInterval(() => {
-        location.reload();
+        // location.reload();
     }, 600000); // 600000ms = 10分钟
 
     // 修改视频播放速度的函数
